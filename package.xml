@@ -11,7 +11,7 @@
   <email>jan@horde.org</email>
   <active>yes</active>
  </lead>
- <date>2016-04-05</date>
+ <date>2017-10-17</date>
  <version>
   <release>2.0.8</release>
   <api>1.0.0</api>
@@ -29,7 +29,6 @@
    <dir name="doc">
     <dir name="Horde">
      <dir name="SyncMl">
-      <file name="COPYING" role="doc" />
       <file name="INSTALL.p900.txt" role="doc" />
       <file name="README.program_flow.txt" role="doc" />
       <file name="README.syncml_primer.txt" role="doc" />
@@ -566,6 +565,7 @@
      </dir> <!-- /test/Horde/SyncMl -->
     </dir> <!-- /test/Horde -->
    </dir> <!-- /test -->
+   <file name="LICENSE" role="doc" />
   </dir> <!-- / -->
  </contents>
  <dependencies>
@@ -647,27 +647,15 @@
  </dependencies>
  <phprelease>
   <filelist>
-   <install as="COPYING" name="doc/Horde/SyncMl/COPYING" />
    <install as="INSTALL.p900.txt" name="doc/Horde/SyncMl/INSTALL.p900.txt" />
    <install as="README.program_flow.txt" name="doc/Horde/SyncMl/README.program_flow.txt" />
    <install as="README.syncml_primer.txt" name="doc/Horde/SyncMl/README.syncml_primer.txt" />
    <install as="TODO" name="doc/Horde/SyncMl/TODO" />
    <install as="Horde/SyncMl.php" name="lib/Horde/SyncMl.php" />
    <install as="Horde/SyncMl/Backend.php" name="lib/Horde/SyncMl/Backend.php" />
-   <install as="Horde/SyncMl/Command.php" name="lib/Horde/SyncMl/Command.php" />
-   <install as="Horde/SyncMl/ContentHandler.php" name="lib/Horde/SyncMl/ContentHandler.php" />
-   <install as="Horde/SyncMl/DataStore.php" name="lib/Horde/SyncMl/DataStore.php" />
-   <install as="Horde/SyncMl/Device.php" name="lib/Horde/SyncMl/Device.php" />
-   <install as="Horde/SyncMl/DeviceInfo.php" name="lib/Horde/SyncMl/DeviceInfo.php" />
-   <install as="Horde/SyncMl/Property.php" name="lib/Horde/SyncMl/Property.php" />
-   <install as="Horde/SyncMl/PropertyParameter.php" name="lib/Horde/SyncMl/PropertyParameter.php" />
-   <install as="Horde/SyncMl/State.php" name="lib/Horde/SyncMl/State.php" />
-   <install as="Horde/SyncMl/Sync.php" name="lib/Horde/SyncMl/Sync.php" />
-   <install as="Horde/SyncMl/SyncElement.php" name="lib/Horde/SyncMl/SyncElement.php" />
-   <install as="Horde/SyncMl/Translation.php" name="lib/Horde/SyncMl/Translation.php" />
-   <install as="Horde/SyncMl/XmlOutput.php" name="lib/Horde/SyncMl/XmlOutput.php" />
    <install as="Horde/SyncMl/Backend/Horde.php" name="lib/Horde/SyncMl/Backend/Horde.php" />
    <install as="Horde/SyncMl/Backend/Sql.php" name="lib/Horde/SyncMl/Backend/Sql.php" />
+   <install as="Horde/SyncMl/Command.php" name="lib/Horde/SyncMl/Command.php" />
    <install as="Horde/SyncMl/Command/Alert.php" name="lib/Horde/SyncMl/Command/Alert.php" />
    <install as="Horde/SyncMl/Command/Final.php" name="lib/Horde/SyncMl/Command/Final.php" />
    <install as="Horde/SyncMl/Command/Get.php" name="lib/Horde/SyncMl/Command/Get.php" />
@@ -678,12 +666,23 @@
    <install as="Horde/SyncMl/Command/Status.php" name="lib/Horde/SyncMl/Command/Status.php" />
    <install as="Horde/SyncMl/Command/Sync.php" name="lib/Horde/SyncMl/Command/Sync.php" />
    <install as="Horde/SyncMl/Command/SyncHdr.php" name="lib/Horde/SyncMl/Command/SyncHdr.php" />
+   <install as="Horde/SyncMl/ContentHandler.php" name="lib/Horde/SyncMl/ContentHandler.php" />
+   <install as="Horde/SyncMl/DataStore.php" name="lib/Horde/SyncMl/DataStore.php" />
+   <install as="Horde/SyncMl/Device.php" name="lib/Horde/SyncMl/Device.php" />
    <install as="Horde/SyncMl/Device/Nokia.php" name="lib/Horde/SyncMl/Device/Nokia.php" />
    <install as="Horde/SyncMl/Device/P800.php" name="lib/Horde/SyncMl/Device/P800.php" />
    <install as="Horde/SyncMl/Device/Sync4j.php" name="lib/Horde/SyncMl/Device/Sync4j.php" />
    <install as="Horde/SyncMl/Device/Sync4JMozilla.php" name="lib/Horde/SyncMl/Device/Sync4JMozilla.php" />
    <install as="Horde/SyncMl/Device/Synthesis.php" name="lib/Horde/SyncMl/Device/Synthesis.php" />
-   <install as="locale/Horde_SyncMl.pot" name="locale/Horde_SyncMl.pot" />
+   <install as="Horde/SyncMl/DeviceInfo.php" name="lib/Horde/SyncMl/DeviceInfo.php" />
+   <install as="Horde/SyncMl/Property.php" name="lib/Horde/SyncMl/Property.php" />
+   <install as="Horde/SyncMl/PropertyParameter.php" name="lib/Horde/SyncMl/PropertyParameter.php" />
+   <install as="Horde/SyncMl/State.php" name="lib/Horde/SyncMl/State.php" />
+   <install as="Horde/SyncMl/Sync.php" name="lib/Horde/SyncMl/Sync.php" />
+   <install as="Horde/SyncMl/SyncElement.php" name="lib/Horde/SyncMl/SyncElement.php" />
+   <install as="Horde/SyncMl/Translation.php" name="lib/Horde/SyncMl/Translation.php" />
+   <install as="Horde/SyncMl/XmlOutput.php" name="lib/Horde/SyncMl/XmlOutput.php" />
+   <install as="LICENSE" name="LICENSE" />
    <install as="locale/ar/LC_MESSAGES/Horde_SyncMl.mo" name="locale/ar/LC_MESSAGES/Horde_SyncMl.mo" />
    <install as="locale/ar/LC_MESSAGES/Horde_SyncMl.po" name="locale/ar/LC_MESSAGES/Horde_SyncMl.po" />
    <install as="locale/bg/LC_MESSAGES/Horde_SyncMl.mo" name="locale/bg/LC_MESSAGES/Horde_SyncMl.mo" />
@@ -716,6 +715,7 @@
    <install as="locale/gl/LC_MESSAGES/Horde_SyncMl.po" name="locale/gl/LC_MESSAGES/Horde_SyncMl.po" />
    <install as="locale/he/LC_MESSAGES/Horde_SyncMl.mo" name="locale/he/LC_MESSAGES/Horde_SyncMl.mo" />
    <install as="locale/he/LC_MESSAGES/Horde_SyncMl.po" name="locale/he/LC_MESSAGES/Horde_SyncMl.po" />
+   <install as="locale/Horde_SyncMl.pot" name="locale/Horde_SyncMl.pot" />
    <install as="locale/hr/LC_MESSAGES/Horde_SyncMl.mo" name="locale/hr/LC_MESSAGES/Horde_SyncMl.mo" />
    <install as="locale/hr/LC_MESSAGES/Horde_SyncMl.po" name="locale/hr/LC_MESSAGES/Horde_SyncMl.po" />
    <install as="locale/hu/LC_MESSAGES/Horde_SyncMl.mo" name="locale/hu/LC_MESSAGES/Horde_SyncMl.mo" />
@@ -770,8 +770,6 @@
    <install as="locale/zh_TW/LC_MESSAGES/Horde_SyncMl.po" name="locale/zh_TW/LC_MESSAGES/Horde_SyncMl.po" />
    <install as="migration/1_horde_syncml_base_tables.php" name="migration/Horde/SyncML/1_horde_syncml_base_tables.php" />
    <install as="Horde/SyncMl/sif.phpt" name="test/Horde/SyncMl/sif.phpt" />
-   <install as="Horde/SyncMl/testpacket.php" name="test/Horde/SyncMl/testpacket.php" />
-   <install as="Horde/SyncMl/testsync.php" name="test/Horde/SyncMl/testsync.php" />
    <install as="Horde/SyncMl/testcase_funambol_outlook3015_calendar/data.txt" name="test/Horde/SyncMl/testcase_funambol_outlook3015_calendar/data.txt" />
    <install as="Horde/SyncMl/testcase_funambol_outlook3015_calendar/syncml_client_10.xml" name="test/Horde/SyncMl/testcase_funambol_outlook3015_calendar/syncml_client_10.xml" />
    <install as="Horde/SyncMl/testcase_funambol_outlook3015_calendar/syncml_client_11.xml" name="test/Horde/SyncMl/testcase_funambol_outlook3015_calendar/syncml_client_11.xml" />
@@ -973,6 +971,8 @@
    <install as="Horde/SyncMl/testcase_synthesis_tasks/syncml_server_40.xml" name="test/Horde/SyncMl/testcase_synthesis_tasks/syncml_server_40.xml" />
    <install as="Horde/SyncMl/testcase_synthesis_tasks/syncml_server_41.xml" name="test/Horde/SyncMl/testcase_synthesis_tasks/syncml_server_41.xml" />
    <install as="Horde/SyncMl/testcase_synthesis_tasks/syncml_server_42.xml" name="test/Horde/SyncMl/testcase_synthesis_tasks/syncml_server_42.xml" />
+   <install as="Horde/SyncMl/testpacket.php" name="test/Horde/SyncMl/testpacket.php" />
+   <install as="Horde/SyncMl/testsync.php" name="test/Horde/SyncMl/testsync.php" />
   </filelist>
  </phprelease>
  <changelog>
@@ -1361,7 +1361,7 @@ Make the SyncML package independant from Horde, provide a new Sql backend as a r
    <stability>
     <release>stable</release>
     <api>stable</api></stability>
-   <date>2016-04-05</date>
+   <date>2017-10-17</date>
    <license uri="http://www.horde.org/licenses/lgpl21">LGPL-2.1</license>
    <notes>
 * 
