@@ -22,7 +22,6 @@
  </stability>
  <license uri="http://www.horde.org/licenses/lgpl21">LGPL-2.1</license>
  <notes>
-* 
  </notes>
  <contents>
   <dir baseinstalldir="/" name="/">
@@ -988,7 +987,7 @@
    <date>2004-01-19</date>
    <license uri="http://www.horde.org/licenses/lgpl21">LGPL-2.1</license>
    <notes>
-Initial implementation
+* Initial implementation
    </notes>
   </release>
   <release>
@@ -1003,7 +1002,7 @@ Initial implementation
    <date>2005-04-23</date>
    <license uri="http://www.horde.org/licenses/lgpl21">LGPL-2.1</license>
    <notes>
-Major update
+* Major update
    </notes>
   </release>
   <release>
@@ -1018,7 +1017,7 @@ Major update
    <date>2006-01-01</date>
    <license uri="http://www.horde.org/licenses/lgpl21">LGPL-2.1</license>
    <notes>
-Passes all tests of SyncML conformance suite now.
+* Passes all tests of SyncML conformance suite now.
    </notes>
   </release>
   <release>
@@ -1033,7 +1032,7 @@ Passes all tests of SyncML conformance suite now.
    <date>2011-03-06</date>
    <license uri="http://www.horde.org/licenses/lgpl21">LGPL-2.1</license>
    <notes>
-Make the SyncML package independant from Horde, provide a new Sql backend as a reference implementation for a backend.
+* Make the SyncML package independant from Horde, provide a new Sql backend as a reference implementation for a backend.
    </notes>
   </release>
   <release>
@@ -1364,7 +1363,6 @@ Make the SyncML package independant from Horde, provide a new Sql backend as a r
    <date>2017-10-17</date>
    <license uri="http://www.horde.org/licenses/lgpl21">LGPL-2.1</license>
    <notes>
-* 
    </notes>
   </release>
  </changelog>
