@@ -1,0 +1,211 @@
+----------
+v2.0.8-git
+----------
+
+
+------
+v2.0.7
+------
+
+[jan] Update Greek translation (Limperis Antonis <limperis@cti.gr>).
+
+
+------
+v2.0.6
+------
+
+[jan] Split large objects into multiple messages (thomas@trethan.net, Request
+      #11071).
+[jan] Remove workarounds for ancient Synthesis clients (Bug #10942).
+[jan] Mark PHP 7 as supported.
+
+
+------
+v2.0.5
+------
+
+[jan] Fix exporting notes to Funambol clients (horde@albasoft.com, Bug #9487).
+[jan] Fix creating server-client-mapping if backend returns multiple server IDs
+      per client ID (horde@albasoft.com, Bug #13706).
+
+
+------
+v2.0.4
+------
+
+[mjr] Hotfix to deal with failure exporting non-contact data due to
+      inconsistency in export methods between applications (Bug #13394).
+
+
+------
+v2.0.3
+------
+
+[jan] Improve documentation.
+
+
+------
+v2.0.2
+------
+
+[jan] Update Basque translation (Ibon Igartua <ibon.igartua@ehu.es>).
+
+
+------
+v2.0.1
+------
+
+[jan] Update Dutch translation (Arjen de Korte <build+horde@de-korte.org>).
+
+
+------
+v2.0.0
+------
+
+First stable release for Horde 5.
+
+
+-----------
+v2.0.0beta1
+-----------
+
+First beta release for Horde 5.
+[jan] Fix session handling (Bug #11242).
+[jan] Fix finding locale directory if installed with PEAR.
+
+
+------------
+v2.0.0alpha1
+------------
+
+First alpha release for Horde 5.
+
+
+------
+v1.0.9
+------
+
+[jan] Don't corrupt binary data like images if sent in several messages
+      (Jonathan Westerholt <joniw@t-online.de>, Bug #10864).
+
+
+------
+v1.0.8
+------
+
+[jan] Fix undefined method while synchronizing events with Funambol (Bug
+      #10908).
+
+
+------
+v1.0.7
+------
+
+[jan] Catch exceptions when changing or retrieving objects from the
+      applications.
+
+
+------
+v1.0.6
+------
+
+[jan] Fix encoding of CDATA (horde@chk.cksf.de, Bug #10692).
+
+
+------
+v1.0.5
+------
+
+[jan] Fix logging errors while retrieving server changes.
+
+
+------
+v1.0.4
+------
+
+[jan] Fix log level output in log file.
+[jan] Update Latvian translation.
+[mjr] Use the more efficient getChanges() API.
+
+
+------
+v1.0.3
+------
+
+[jan] Update Lithuanian translation.
+[jan] Fix duplication of objects during synchronization (joniw@t-online.de,
+      Bug #10081).
+
+
+------
+v1.0.2
+------
+
+[mms] Complete fix for issue causing slow syncs only (Bug #10008).
+
+
+------
+v1.0.1
+------
+
+[mms] Fix issue causing slow syncs only (Bug #10008).
+
+
+------
+v1.0.0
+------
+
+First stable release for Horde 4.
+[jan] Add removeMaps() method to Horde backend driver.
+[jan] Convert database access to use Horde_Db.
+
+
+---------
+v1.0.0RC2
+---------
+
+Second release candidate for Horde 4.
+
+
+---------
+v1.0.0RC1
+---------
+
+First release candidate for Horde 4.
+[jan] Fix calendar synchronization with certain Nokia phones (Bug #9646).
+
+
+-----------
+v1.0.0beta1
+-----------
+
+First beta release for Horde 4.
+
+
+------
+v0.7.0
+------
+
+Make the SyncML package independant from Horde, provide a new Sql backend as a
+      reference implementation for a backend.
+
+
+------
+v0.6.0
+------
+
+Passes all tests of SyncML conformance suite now.
+
+
+------
+v0.0.3
+------
+
+Major update
+
+
+------
+v0.0.1
+------
+
+Initial implementation
