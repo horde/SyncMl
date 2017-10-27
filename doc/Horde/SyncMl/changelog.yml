@@ -1,0 +1,319 @@
+---
+2.0.8:
+  api: 1.0.0
+  state:
+    release: stable
+    api: stable
+  date: 2017-10-17
+  license:
+    identifier: LGPL-2.1
+    uri: http://www.horde.org/licenses/lgpl21
+  notes:
+2.0.7:
+  api: 1.0.0
+  state:
+    release: stable
+    api: stable
+  date: 2016-04-05
+  license:
+    identifier: LGPL-2.1
+    uri: http://www.horde.org/licenses/lgpl21
+  notes: |
+    [jan] Update Greek translation (Limperis Antonis <limperis@cti.gr>).
+2.0.6:
+  api: 1.0.0
+  state:
+    release: stable
+    api: stable
+  date: 2016-02-02
+  license:
+    identifier: LGPL-2.1
+    uri: http://www.horde.org/licenses/lgpl21
+  notes: |
+    [jan] Split large objects into multiple messages (thomas@trethan.net, Request #11071).
+    [jan] Remove workarounds for ancient Synthesis clients (Bug #10942).
+    [jan] Mark PHP 7 as supported.
+2.0.5:
+  api: 1.0.0
+  state:
+    release: stable
+    api: stable
+  date: 2014-12-03
+  license:
+    identifier: LGPL-2.1
+    uri: http://www.horde.org/licenses/lgpl21
+  notes: |
+    [jan] Fix exporting notes to Funambol clients (horde@albasoft.com, Bug #9487).
+    [jan] Fix creating server-client-mapping if backend returns multiple server IDs per client ID (horde@albasoft.com, Bug #13706).
+2.0.4:
+  api: 1.0.0
+  state:
+    release: stable
+    api: stable
+  date: 2014-07-24
+  license:
+    identifier: LGPL-2.1
+    uri: http://www.horde.org/licenses/lgpl21
+  notes: |
+    [mjr] Hotfix to deal with failure exporting non-contact data due to inconsistency in export methods between applications (Bug #13394).
+2.0.3:
+  api: 1.0.0
+  state:
+    release: stable
+    api: stable
+  date: 2013-03-05
+  license:
+    identifier: LGPL-2.1
+    uri: http://www.horde.org/licenses/lgpl21
+  notes: |
+    [jan] Improve documentation.
+2.0.2:
+  api: 1.0.0
+  state:
+    release: stable
+    api: stable
+  date: 2013-01-10
+  license:
+    identifier: LGPL-2.1
+    uri: http://www.horde.org/licenses/lgpl21
+  notes: |
+    [jan] Update Basque translation (Ibon Igartua <ibon.igartua@ehu.es>).
+2.0.1:
+  api: 1.0.0
+  state:
+    release: stable
+    api: stable
+  date: 2012-11-06
+  license:
+    identifier: LGPL-2.1
+    uri: http://www.horde.org/licenses/lgpl21
+  notes: |
+    [jan] Update Dutch translation (Arjen de Korte <build+horde@de-korte.org>).
+2.0.0:
+  api: 1.0.0
+  state:
+    release: stable
+    api: stable
+  date: 2012-10-30
+  license:
+    identifier: LGPL-2.1
+    uri: http://www.horde.org/licenses/lgpl21
+  notes: |
+    First stable release for Horde 5.
+2.0.0beta1:
+  api: 1.0.0
+  state:
+    release: beta
+    api: stable
+  date: 2012-07-19
+  license:
+    identifier: LGPL-2.1
+    uri: http://www.horde.org/licenses/lgpl21
+  notes: |
+    First beta release for Horde 5.
+    [jan] Fix session handling (Bug #11242).
+    [jan] Fix finding locale directory if installed with PEAR.
+2.0.0alpha1:
+  api: 1.0.0
+  state:
+    release: alpha
+    api: stable
+  date: 2012-07-06
+  license:
+    identifier: LGPL-2.1
+    uri: http://www.horde.org/licenses/lgpl21
+  notes: |
+    First alpha release for Horde 5.
+1.0.9:
+  api: 1.0.0
+  state:
+    release: stable
+    api: stable
+  date: 2012-05-01
+  license:
+    identifier: LGPL-2.1
+    uri: http://www.horde.org/licenses/lgpl21
+  notes: |
+    [jan] Don't corrupt binary data like images if sent in several messages (Jonathan Westerholt <joniw@t-online.de>, Bug #10864).
+1.0.8:
+  api: 1.0.0
+  state:
+    release: stable
+    api: stable
+  date: 2012-01-17
+  license:
+    identifier: LGPL-2.1
+    uri: http://www.horde.org/licenses/lgpl21
+  notes: |
+    [jan] Fix undefined method while synchronizing events with Funambol (Bug #10908).
+1.0.7:
+  api: 1.0.0
+  state:
+    release: stable
+    api: stable
+  date: 2011-12-21
+  license:
+    identifier: LGPL-2.1
+    uri: http://www.horde.org/licenses/lgpl21
+  notes: |
+    [jan] Catch exceptions when changing or retrieving objects from the applications.
+1.0.6:
+  api: 1.0.0
+  state:
+    release: stable
+    api: stable
+  date: 2011-11-02
+  license:
+    identifier: LGPL-2.1
+    uri: http://www.horde.org/licenses/lgpl21
+  notes: |
+    [jan] Fix encoding of CDATA (horde@chk.cksf.de, Bug #10692).
+1.0.5:
+  api: 1.0.0
+  state:
+    release: stable
+    api: stable
+  date: 2011-08-17
+  license:
+    identifier: LGPL-2.1
+    uri: http://www.horde.org/licenses/lgpl21
+  notes: |
+    [jan] Fix logging errors while retrieving server changes.
+1.0.4:
+  api: 1.0.0
+  state:
+    release: stable
+    api: stable
+  date: 2011-07-27
+  license:
+    identifier: LGPL-2.1
+    uri: http://www.horde.org/licenses/lgpl21
+  notes: |
+    [jan] Fix log level output in log file.
+    [jan] Update Latvian translation.
+    [mjr] Use the more efficient getChanges() API.
+1.0.3:
+  api: 1.0.0
+  state:
+    release: stable
+    api: stable
+  date: 2011-07-05
+  license:
+    identifier: LGPL-2.1
+    uri: http://www.horde.org/licenses/lgpl21
+  notes: |
+    [jan] Update Lithuanian translation.
+    [jan] Fix duplication of objects during synchronization (joniw@t-online.de, Bug #10081).
+1.0.2:
+  api: 1.0.0
+  state:
+    release: stable
+    api: stable
+  date: 2011-05-25
+  license:
+    identifier: LGPL-2.1
+    uri: http://www.horde.org/licenses/lgpl21
+  notes: |
+    [mms] Complete fix for issue causing slow syncs only (Bug #10008).
+1.0.1:
+  api: 1.0.0
+  state:
+    release: stable
+    api: stable
+  date: 2011-05-03
+  license:
+    identifier: LGPL-2.1
+    uri: http://www.horde.org/licenses/lgpl21
+  notes: |
+    [mms] Fix issue causing slow syncs only (Bug #10008).
+1.0.0:
+  api: 1.0.0
+  state:
+    release: stable
+    api: stable
+  date: 2011-04-06
+  license:
+    identifier: LGPL-2.1
+    uri: http://www.horde.org/licenses/lgpl21
+  notes: |
+    First stable release for Horde 4.
+    [jan] Add removeMaps() method to Horde backend driver.
+    [jan] Convert database access to use Horde_Db.
+1.0.0RC2:
+  api: 1.0.0
+  state:
+    release: beta
+    api: beta
+  date: 2011-03-29
+  license:
+    identifier: LGPL-2.1
+    uri: http://www.horde.org/licenses/lgpl21
+  notes: |
+    Second release candidate for Horde 4.
+1.0.0RC1:
+  api: 1.0.0
+  state:
+    release: beta
+    api: beta
+  date: 2011-03-22
+  license:
+    identifier: LGPL-2.1
+    uri: http://www.horde.org/licenses/lgpl21
+  notes: |
+    First release candidate for Horde 4.
+    [jan] Fix calendar synchronization with certain Nokia phones (Bug #9646).
+1.0.0beta1:
+  api: 1.0.0
+  state:
+    release: beta
+    api: beta
+  date: 2011-03-16
+  license:
+    identifier: LGPL-2.1
+    uri: http://www.horde.org/licenses/lgpl21
+  notes: |
+    First beta release for Horde 4.
+0.7.0:
+  api: 0.7.0
+  state:
+    release: beta
+    api: beta
+  date: 2011-03-06
+  license:
+    identifier: LGPL-2.1
+    uri: http://www.horde.org/licenses/lgpl21
+  notes: |
+    Make the SyncML package independant from Horde, provide a new Sql backend as a reference implementation for a backend.
+0.6.0:
+  api: 0.6.0
+  state:
+    release: beta
+    api: beta
+  date: 2006-01-01
+  license:
+    identifier: LGPL-2.1
+    uri: http://www.horde.org/licenses/lgpl21
+  notes: |
+    Passes all tests of SyncML conformance suite now.
+0.0.3:
+  api: 0.0.3
+  state:
+    release: alpha
+    api: alpha
+  date: 2005-04-23
+  license:
+    identifier: LGPL-2.1
+    uri: http://www.horde.org/licenses/lgpl21
+  notes: |
+    Major update
+0.0.1:
+  api: 0.0.1
+  state:
+    release: alpha
+    api: alpha
+  date: 2004-01-19
+  license:
+    identifier: LGPL-2.1
+    uri: http://www.horde.org/licenses/lgpl21
+  notes: |
+    Initial implementation
