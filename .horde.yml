@@ -5,3 +5,35 @@ full: Horde_SyncMl provides an API for processing SyncML requests
 description: Classes for implementing a SyncML server.
 list: dev
 type: library
+homepage: https://www.horde.org/libraries/Horde_SyncMl
+authors:
+  -
+    name: Jan Schneider
+    user: jan
+    email: jan@horde.org
+    active: true
+    role: lead
+version:
+  release: 2.0.8
+  api: 1.0.0
+state:
+  release: stable
+  api: stable
+license:
+  identifier: LGPL-2.1
+  uri: http://www.horde.org/licenses/lgpl21
+dependencies:
+  required:
+    php: ^5.3 || ^7
+    pear:
+      pear.horde.org/Horde_Date: ^2
+      pear.horde.org/Horde_Icalendar: ^2
+      pear.horde.org/Horde_Log: ^2
+      pear.horde.org/Horde_Support: ^2
+      pear.horde.org/Horde_Util: ^2
+      pear.horde.org/Horde_Xml_Wbxml: ^2
+      pear.horde.org/Horde_Translation: ^2.2
+  optional:
+    pear:
+      pear.horde.org/Horde_Auth: ^2
+      pear.horde.org/Horde_Core: ^2
