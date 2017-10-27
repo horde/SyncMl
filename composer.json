@@ -1,5 +1,5 @@
 {
-    "name": "horde/horde-syncml",
+    "name": "horde/syncml",
     "description": "Horde_SyncMl provides an API for processing SyncML requests",
     "type": "library",
     "homepage": "https://pear.horde.org",
@@ -21,17 +21,17 @@
     ],
     "require": {
         "php": "^5.3 || ^7",
-        "pear-pear.horde.org/Horde_Date": "^2@stable",
-        "pear-pear.horde.org/Horde_Icalendar": "^2@stable",
-        "pear-pear.horde.org/Horde_Log": "^2@stable",
-        "pear-pear.horde.org/Horde_Support": "^2@stable",
-        "pear-pear.horde.org/Horde_Util": "^2@stable",
-        "pear-pear.horde.org/Horde_Xml_Wbxml": "^2@stable",
-        "pear-pear.horde.org/Horde_Translation": "^2.2@stable"
+        "pear-pear.horde.org/Horde_Date": "^2",
+        "pear-pear.horde.org/Horde_Icalendar": "^2",
+        "pear-pear.horde.org/Horde_Log": "^2",
+        "pear-pear.horde.org/Horde_Support": "^2",
+        "pear-pear.horde.org/Horde_Util": "^2",
+        "pear-pear.horde.org/Horde_Xml_Wbxml": "^2",
+        "pear-pear.horde.org/Horde_Translation": "^2.2"
     },
     "suggest": {
-        "pear-pear.horde.org/Horde_Auth": "^2@stable",
-        "pear-pear.horde.org/Horde_Core": "^2@stable"
+        "pear-pear.horde.org/Horde_Auth": "^2",
+        "pear-pear.horde.org/Horde_Core": "^2"
     },
     "replace": {
         "pear-pear.horde.org/Horde_SyncMl": "2.*",
