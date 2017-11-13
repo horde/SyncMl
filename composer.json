@@ -1,8 +1,8 @@
 {
     "name": "horde/syncml",
-    "description": "Horde_SyncMl provides an API for processing SyncML requests",
+    "description": "SyncML server library",
     "type": "library",
-    "homepage": "https://pear.horde.org",
+    "homepage": "https://www.horde.org/libraries/Horde_SyncMl",
     "license": "LGPL-2.1",
     "authors": [
         {
@@ -12,7 +12,7 @@
         }
     ],
     "version": "2.0.8",
-    "time": "2017-10-17",
+    "time": "2017-11-11",
     "repositories": [
         {
             "type": "pear",
