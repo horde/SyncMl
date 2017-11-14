@@ -3,15 +3,15 @@
  <name>Horde_SyncMl</name>
  <channel>pear.horde.org</channel>
  <extends>SyncML</extends>
- <summary>Horde_SyncMl provides an API for processing SyncML requests</summary>
- <description>Classes for implementing a SyncML server.</description>
+ <summary>SyncML server library</summary>
+ <description>Horde_SyncMl provides an API for processing SyncML requests</description>
  <lead>
   <name>Jan Schneider</name>
   <user>jan</user>
   <email>jan@horde.org</email>
   <active>yes</active>
  </lead>
- <date>2017-10-30</date>
+ <date>2017-11-14</date>
  <version>
   <release>2.0.8</release>
   <api>1.0.0</api>
@@ -1363,7 +1363,7 @@
    <stability>
     <release>stable</release>
     <api>stable</api></stability>
-   <date>2017-10-30</date>
+   <date>2017-11-14</date>
    <license uri="http://www.horde.org/licenses/lgpl21">LGPL-2.1</license>
    <notes>
 * 
