@@ -2,7 +2,7 @@
 id: SyncMl
 name: SyncMl
 full: SyncML server library
-description: Horde_SyncMl provides an API for processing SyncML requests
+description: A library that provides an API for processing SyncML requests.
 list: dev
 type: library
 homepage: https://www.horde.org/libraries/Horde_SyncMl
