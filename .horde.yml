@@ -24,16 +24,16 @@ license:
   uri: http://www.horde.org/licenses/lgpl21
 dependencies:
   required:
-    php: ^5.3 || ^7
-    pear:
-      pear.horde.org/Horde_Date: ^2
-      pear.horde.org/Horde_Icalendar: ^2
-      pear.horde.org/Horde_Log: ^2
-      pear.horde.org/Horde_Support: ^2
-      pear.horde.org/Horde_Util: ^2
-      pear.horde.org/Horde_Xml_Wbxml: ^2
-      pear.horde.org/Horde_Translation: ^2.2
+    php: ^7
+    composer:
+      horde/date: ^3
+      horde/icalendar: ^3
+      horde/log: ^3
+      horde/support: ^3
+      horde/util: ^3
+      horde/xml_wbxml: ^3
+      horde/translation: ^3
   optional:
-    pear:
-      pear.horde.org/Horde_Auth: ^2
-      pear.horde.org/Horde_Core: ^2
+    composer:
+      horde/auth: ^3
+      horde/core: ^3

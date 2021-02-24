@@ -21,18 +21,18 @@
     ],
     "require": {
         "horde/horde-installer-plugin": "*",
-        "php": "^5.3 || ^7",
-        "horde/date": "^2",
-        "horde/icalendar": "^2",
-        "horde/log": "^2",
-        "horde/support": "^2",
-        "horde/util": "^2",
-        "horde/xml_wbxml": "^2",
-        "horde/translation": "^2.2"
+        "php": "^7",
+        "horde/date": "^3",
+        "horde/icalendar": "^3",
+        "horde/log": "^3",
+        "horde/support": "^3",
+        "horde/util": "^3",
+        "horde/xml_wbxml": "^3",
+        "horde/translation": "^3"
     },
     "suggest": {
-        "horde/auth": "^2",
-        "horde/core": "^2"
+        "horde/auth": "^3",
+        "horde/core": "^3"
     },
     "autoload": {
         "psr-0": {
