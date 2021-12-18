@@ -4,7 +4,7 @@
     "description": "SyncML server library",
     "type": "library",
     "homepage": "https://www.horde.org/libraries/Horde_SyncMl",
-    "license": "LGPL-2.1",
+    "license": "LGPL-2.1-only",
     "authors": [
         {
             "name": "Jan Schneider",
@@ -20,7 +20,7 @@
         }
     ],
     "require": {
-        "php": "^7",
+        "php": "^7.4 || ^8",
         "horde/date": "^3 || dev-FRAMEWORK_6_0",
         "horde/icalendar": "^3 || dev-FRAMEWORK_6_0",
         "horde/log": "^3 || dev-FRAMEWORK_6_0",
